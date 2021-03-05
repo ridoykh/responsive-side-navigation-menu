@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-brand{
+	color: #e74c3c !important;
+	font-size: 25px !important;
+}
+
+.nav-menu a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav-menu a:hover{
+	border-left: 3px solid #ffffff;
+	transition: 0.2s;
+}
+
+.sideNavOpen{
+	height: 100%;
+	width: 220px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	overflow-x: hidden;
+	padding-left: 10px;
+	padding-top: 20px;
+	transition: 0.3s;
+	background-color: #e74c3c;
+}
+
+.sideNavClose{
+	height: 100%;
+	width: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	overflow-x: hidden;
+	padding-left: 10px;
+	padding-top: 20px;
+	transition: 0.3s;
+	background-color: #e74c3c;
+}
+
+.contentOverlay{
+	display: block;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 7;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.contentOverlayClose{
+	display: none;
+}
+
+.content{
+	margin-top: 75px;
+	margin-left: 60px;
+	z-index: 5;
+}
